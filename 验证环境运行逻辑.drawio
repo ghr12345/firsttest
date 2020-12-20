@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T06:40:28.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="G9czWOKaPMYd3nuWVATc" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T06:41:45.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OLm5wWrpdvLQSaEQhHnp" version="14.1.1" type="github">
   <diagram id="hwChwFzIp5A2poVKVg7N" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,43 +14,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-3" value="组件创建完成事件和组件连接完成事件声明" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-5" target="y9NuJ4snFxg0pB3j6IVG-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-5" value="DUT例化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-7" target="y9NuJ4snFxg0pB3j6IVG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-7" value="产生时钟和复位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-9" target="y9NuJ4snFxg0pB3j6IVG-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-9" value="stimulator的例化和连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-11" target="y9NuJ4snFxg0pB3j6IVG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-11" value="monitor和checker" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-13" target="y9NuJ4snFxg0pB3j6IVG-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-13" value="interface例化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-15" target="y9NuJ4snFxg0pB3j6IVG-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-15" value="interface信号同DUT连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-17" target="y9NuJ4snFxg0pB3j6IVG-19">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-17" value="组件建立阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-19" target="y9NuJ4snFxg0pB3j6IVG-24">
           <mxGeometry relative="1" as="geometry" />
@@ -71,22 +71,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-19" value="组件连接阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-21" value="组件例化&lt;br&gt;组件配置&lt;br&gt;组件建立阶段完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1250" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-24" value="虚接口的连接&lt;br&gt;事件的赋值&lt;br&gt;信箱的连接&lt;br&gt;组件连接阶段完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-26" target="y9NuJ4snFxg0pB3j6IVG-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-26" value="组件运行阶段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1530" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-28" value="fork//各个组件同时运行&lt;br&gt;ini_mon.run()&lt;br&gt;rsp_mon.run()&lt;br&gt;chk.run()&lt;br&gt;join_none" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1510" width="210" height="100" as="geometry" />
+          <mxGeometry x="510" y="1290" width="210" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
