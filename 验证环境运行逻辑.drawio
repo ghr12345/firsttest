@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T06:41:45.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="OLm5wWrpdvLQSaEQhHnp" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T07:02:31.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="B9UAaBPKcqpDlgvrg_J2" version="14.1.1" type="github">
   <diagram id="hwChwFzIp5A2poVKVg7N" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-2" target="y9NuJ4snFxg0pB3j6IVG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NuJ4snFxg0pB3j6IVG-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y9NuJ4snFxg0pB3j6IVG-2" target="y9NuJ4snFxg0pB3j6IVG-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-2" value="信号声明\\信号干什么用的？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -87,6 +90,9 @@
         </mxCell>
         <mxCell id="y9NuJ4snFxg0pB3j6IVG-28" value="fork//各个组件同时运行&lt;br&gt;ini_mon.run()&lt;br&gt;rsp_mon.run()&lt;br&gt;chk.run()&lt;br&gt;join_none" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="1290" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NuJ4snFxg0pB3j6IVG-30" value="声明信号用来连接DUT" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
