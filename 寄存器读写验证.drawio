@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T02:17:31.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WzlNqGoCChQQCwPfub1M" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-20T02:18:03.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="32zgvmVJHAUehemIyeCm" version="14.1.1" type="github">
   <diagram id="4OCaX4ifmZY_FHk7Oeba" name="第 1 页">
     <mxGraphModel dx="1865" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,7 +318,7 @@
         <mxCell id="vktnlD1UzVW9Hzfwcb2J-3" value="class reg_stm_ini&lt;br&gt;task op_wr&lt;br&gt;task op_rd&lt;br&gt;task op_idle&lt;br&gt;task op_parse&lt;br&gt;task stmgen" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-15" y="270" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vktnlD1UzVW9Hzfwcb2J-6" value="class trans&lt;br&gt;cmd&lt;br&gt;cmd_addr_i&lt;br&gt;cmd_data_i&lt;br&gt;cmd_data_o" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="vktnlD1UzVW9Hzfwcb2J-6" value="class trans&lt;br&gt;cmd&lt;br&gt;cmd_addr&lt;br&gt;cmd_data_wr&lt;br&gt;cmd_data_rd" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="-40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vktnlD1UzVW9Hzfwcb2J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.049;entryY=0.46;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vktnlD1UzVW9Hzfwcb2J-9" target="vktnlD1UzVW9Hzfwcb2J-1" edge="1">
