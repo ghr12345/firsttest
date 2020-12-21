@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T15:52:56.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KJRKdzSl_J2L6ezEe76o" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T16:00:03.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="b02YZsP9BRwGkyU9e9Dc" version="14.1.1" type="github">
   <diagram id="VvrQXZiGgJxXtHWpphrn" name="第 1 页">
     <mxGraphModel dx="1865" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,10 @@
           <mxGeometry x="-420" y="430" width="510" height="680" as="geometry" />
         </mxCell>
         <mxCell id="uRme-oSHl7LuD4Ypp3Qp-4" value="只有在phase中的过程才能用run test自动按顺序执行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="190" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-5" value="&lt;div&gt;`ifndef MY_ENV__SV&lt;/div&gt;&lt;div&gt;`define MY_ENV__SV&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class my_env extends uvm_env;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_agent&amp;nbsp; i_agt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_agent&amp;nbsp; o_agt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;function new(string name = &quot;my_env&quot;, uvm_component parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.new(name, parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.build_phase(phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; i_agt = my_agent::type_id::create(&quot;i_agt&quot;, this);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; o_agt = my_agent::type_id::create(&quot;o_agt&quot;, this);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; i_agt.is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; o_agt.is_active = UVM_PASSIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils(my_env)&lt;/div&gt;&lt;div&gt;endclass&lt;/div&gt;&lt;div&gt;`endif&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="630" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
