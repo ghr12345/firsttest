@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T16:02:55.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vvpgSN4mpUacE169fTvo" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T16:03:23.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="im7cQISs51mCcVRDg8Ha" version="14.1.1" type="github">
   <diagram id="VvrQXZiGgJxXtHWpphrn" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,9 +187,11 @@
         <mxCell id="q7e-_IXdjN93fWWm_PCq-29" value="scb&lt;br&gt;（my_scoreboard）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="417" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q7e-_IXdjN93fWWm_PCq-30" value="o_agent&lt;br&gt;（my_agent）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="577" y="1250" width="120" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="o_agent&lt;br&gt;（my_agent）" link="https://app.diagrams.net/#Hghr12345%2Ffirsttest%2Fmaster%2Fmy_agent.drawio" id="q7e-_IXdjN93fWWm_PCq-30">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="577" y="1250" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="q7e-_IXdjN93fWWm_PCq-31" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="377" y="1180" as="sourcePoint" />
