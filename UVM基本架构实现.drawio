@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T16:03:06.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="79JCEGHBn3PIYmaifao_" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T15:06:25.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bl-KfublhhW5TeSx-QOi" version="14.1.1" type="github">
   <diagram id="VvrQXZiGgJxXtHWpphrn" name="第 1 页">
-    <mxGraphModel dx="1865" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,20 +83,86 @@
             <mxPoint x="493.5" y="293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-2" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;module dut(clk,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;rst_n,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;rxd,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;rx_dv,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;txd,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;tx_en);&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;input clk;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;input rst_n;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;input[7:0] rxd;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;input rx_dv;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;output [7:0] txd;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;output tx_en;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;reg[7:0] txd;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;reg tx_en;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;always @(posedge clk) begin&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;if(!rst_n) begin&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;txd &amp;lt;= 8&#39;b0;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;tx_en &amp;lt;= 1&#39;b0;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;end&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;else begin&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;txd &amp;lt;= rxd;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;tx_en &amp;lt;= rx_dv;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;	&lt;/span&gt;end&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;end&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;endmodule&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="10" width="178" height="410" as="geometry" />
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q7e-_IXdjN93fWWm_PCq-1" target="q7e-_IXdjN93fWWm_PCq-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-3" value="&lt;div&gt;&lt;div&gt;`ifndef MY_DRIVER__SV&lt;/div&gt;&lt;div&gt;`define MY_DRIVER__SV&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class my_driver extends uvm_driver;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;virtual my_if vif;&amp;nbsp; &amp;nbsp;//虚接口&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils(my_driver)&amp;nbsp; &amp;nbsp; //工厂机制&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;function new(string name = &quot;my_driver&quot;, uvm_component parent = null);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.new(name, parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; `uvm_info(&quot;my_driver&quot;, &quot;new is called&quot;, UVM_LOW);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.build_phase(phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; `uvm_info(&quot;my_driver&quot;, &quot;build_phase is called&quot;, UVM_LOW);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; if(!uvm_config_db#(virtual my_if)::get(this, &quot;&quot;, &quot;vif&quot;, vif))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;`uvm_fatal(&quot;my_driver&quot;, &quot;virtual interface must be set for vif!!!&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task main_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;endclass&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;task my_driver::main_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;phase.raise_objection(this);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_info(&quot;my_driver&quot;, &quot;main_phase is called&quot;, UVM_LOW);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif.data &amp;lt;= 8&#39;b0;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif.valid &amp;lt;= 1&#39;b0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;while(!vif.rst_n)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; @(posedge vif.clk);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;for(int i = 0; i &amp;lt; 256; i++)begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; @(posedge vif.clk);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vif.data &amp;lt;= $urandom_range(0, 255);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; vif.valid &amp;lt;= 1&#39;b1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; `uvm_info(&quot;my_driver&quot;, &quot;data is drived&quot;, UVM_LOW);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;end&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;@(posedge vif.clk);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif.valid &amp;lt;= 1&#39;b0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;phase.drop_objection(this);&lt;/div&gt;&lt;div&gt;endtask&lt;/div&gt;&lt;div&gt;`endif&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-420" y="430" width="510" height="680" as="geometry" />
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-1" value="UVM_TEST_TOP&lt;br&gt;（base_test）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-4" value="只有在phase中的过程才能用run test自动按顺序执行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-2" value="env&lt;br&gt;（my_env）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-5" value="&lt;div&gt;`ifndef MY_ENV__SV&lt;/div&gt;&lt;div&gt;`define MY_ENV__SV&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class my_env extends uvm_env;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_agent&amp;nbsp; i_agt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_agent&amp;nbsp; o_agt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;function new(string name = &quot;my_env&quot;, uvm_component parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.new(name, parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.build_phase(phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; i_agt = my_agent::type_id::create(&quot;i_agt&quot;, this);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; o_agt = my_agent::type_id::create(&quot;o_agt&quot;, this);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; i_agt.is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; o_agt.is_active = UVM_PASSIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils(my_env)&lt;/div&gt;&lt;div&gt;endclass&lt;/div&gt;&lt;div&gt;`endif&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="210" y="530" width="630" height="350" as="geometry" />
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-4" value="i_agent&lt;br&gt;(my_agent)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uRme-oSHl7LuD4Ypp3Qp-7" value="&lt;div&gt;`ifndef MY_AGENT__SV&lt;/div&gt;&lt;div&gt;`define MY_AGENT__SV&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class my_agent extends uvm_agent ;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_driver&amp;nbsp; &amp;nbsp; &amp;nbsp;drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;my_monitor&amp;nbsp; &amp;nbsp; mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;function new(string name, uvm_component parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; super.new(name, parent);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;endfunction&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils(my_agent)&lt;/div&gt;&lt;div&gt;endclass&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function void my_agent::build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;super.build_phase(phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;if (is_active == UVM_ACTIVE) begin&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;drv = my_driver::type_id::create(&quot;drv&quot;, this);&amp;nbsp; //这种创建实例的方法有很大好处&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;end&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;mon = my_monitor::type_id::create(&quot;mon&quot;, this);&lt;/div&gt;&lt;div&gt;endfunction&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;function void my_agent::connect_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;super.connect_phase(phase);&lt;/div&gt;&lt;div&gt;endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;`endif&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=left;" vertex="1" parent="1">
-          <mxGeometry x="200" y="970" width="516" height="500" as="geometry" />
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-5" value="mdl&lt;br&gt;（my_model）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-6" value="scb&lt;br&gt;（my_scoreboard）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-7" value="o_agent&lt;br&gt;（my_agent）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="630" as="sourcePoint" />
+            <mxPoint x="290" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="630" as="sourcePoint" />
+            <mxPoint x="305" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-12" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362.5" y="630" as="sourcePoint" />
+            <mxPoint x="387.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-14" value="sqr&lt;br&gt;(my_squencer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-15" value="drv&lt;br&gt;(my_driver)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-16" value="mon&lt;br&gt;(my_monitor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="760" as="sourcePoint" />
+            <mxPoint x="155" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-18" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="760" as="sourcePoint" />
+            <mxPoint x="165" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-19" value="" style="endArrow=classic;html=1;entryX=0.395;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="760" as="sourcePoint" />
+            <mxPoint x="175" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-20" value="mon&lt;br&gt;(my_monitor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7e-_IXdjN93fWWm_PCq-21" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="670" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
