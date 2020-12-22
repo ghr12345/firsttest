@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T16:06:19.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="lVEZnpROxbPygJpWQG13" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T16:07:40.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FL_S05NdsRv0S29-PtYT" version="14.1.1" type="github">
   <diagram id="VvrQXZiGgJxXtHWpphrn" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,9 +220,11 @@
             <mxPoint x="457" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q7e-_IXdjN93fWWm_PCq-35" value="sqr&lt;br&gt;(my_squencer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="47" y="1390" width="80" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="sqr&lt;br&gt;(my_squencer)" link="https://app.diagrams.net/#Hghr12345%2Ffirsttest%2Fmaster%2FUVM%E6%9E%B6%E6%9E%84%E6%80%BB%E7%BB%93%2Fmy_sequencer.drawio" id="q7e-_IXdjN93fWWm_PCq-35">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="47" y="1390" width="80" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="q7e-_IXdjN93fWWm_PCq-36" value="drv&lt;br&gt;(my_driver)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="152" y="1390" width="80" height="60" as="geometry" />
         </mxCell>
