@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T16:10:18.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CKk2h0tUgF-QSbxE5tRX" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T16:10:28.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aj5khYt7jc4A6aPoQN34" version="14.1.1" type="github">
   <diagram id="VvrQXZiGgJxXtHWpphrn" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,9 +253,11 @@
             <mxPoint x="192" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q7e-_IXdjN93fWWm_PCq-41" value="mon&lt;br&gt;(my_monitor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="617" y="1390" width="80" height="60" as="geometry" />
-        </mxCell>
+        <UserObject label="mon&lt;br&gt;(my_monitor)" link="https://app.diagrams.net/#Hghr12345%2Ffirsttest%2Fmaster%2FUVM%E6%9E%B6%E6%9E%84%E6%80%BB%E7%BB%93%2Fmy_monitor.drawio" id="q7e-_IXdjN93fWWm_PCq-41">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="617" y="1390" width="80" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="q7e-_IXdjN93fWWm_PCq-42" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q7e-_IXdjN93fWWm_PCq-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="637" y="1310" as="sourcePoint" />
