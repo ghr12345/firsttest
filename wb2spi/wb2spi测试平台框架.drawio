@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T16:04:25.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cgi8v3ERA5iE8idwDY3B" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T16:05:16.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="n2dv7v-iTO89OdsPUv2j" version="14.1.2" type="github">
   <diagram id="NrW_GsyR382BeeEDKsCB" name="第 1 页">
     <mxGraphModel dx="2692" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,6 +290,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-890" y="860" as="sourcePoint" />
             <mxPoint x="-840" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-68" value="&lt;div&gt;package wb2spi_parameters_pkg;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;parameter string WB_BFM&amp;nbsp; = &quot;WB_BFM&quot;;&lt;/div&gt;&lt;div&gt;parameter string SPI_BFM = &quot;SPI_BFM&quot;;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;endpackage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="690" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-69" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-16" target="yj3TOyIEOkWwaIAgIjnc-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1570" y="670" as="sourcePoint" />
+            <mxPoint x="-1520" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
