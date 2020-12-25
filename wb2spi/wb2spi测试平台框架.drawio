@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T15:52:36.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Y1k4h21WDHzZTAcqlsmB" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T16:04:25.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cgi8v3ERA5iE8idwDY3B" version="14.1.2" type="github">
   <diagram id="NrW_GsyR382BeeEDKsCB" name="第 1 页">
     <mxGraphModel dx="2692" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yj3TOyIEOkWwaIAgIjnc-56" value="1、接口例化&lt;br&gt;2、driver和monitor例化&lt;br&gt;3、DUT例化&lt;br&gt;4、虚接口和接口实例连接" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="980" width="162" height="60" as="geometry" />
+          <mxGeometry x="-220" y="920" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yj3TOyIEOkWwaIAgIjnc-57" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-40" target="yj3TOyIEOkWwaIAgIjnc-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -248,12 +248,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yj3TOyIEOkWwaIAgIjnc-58" value="run test (&amp;nbsp; &amp;nbsp; )" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-113" y="980" width="73" height="60" as="geometry" />
+          <mxGeometry x="-30" y="910" width="73" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yj3TOyIEOkWwaIAgIjnc-59" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-41" target="yj3TOyIEOkWwaIAgIjnc-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-60" y="850" as="sourcePoint" />
             <mxPoint x="-10" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-60" value="打包package" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="680" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-61" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-17" target="yj3TOyIEOkWwaIAgIjnc-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1090" y="750" as="sourcePoint" />
+            <mxPoint x="-1040" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-62" value="class wb2spi_sequence_base extends uvm_sequence&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;task spi_read_via_wb(input bit[2:0] addr)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;task spi_write_via_wb(input bit[2:0] addr, input bit [3:0] spi_write_data);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;task spi_enable();&lt;br&gt;&lt;br&gt;&lt;span&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;virtual task body();&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; wb_reset_s = wb_reset_sequence::type_id::create(&quot;wb_reset_s&quot;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; spi_mem_slave_s =&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; spi_mem_slave_seq::type_id::create(&quot;spi_mem_slave_s&quot;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;fork spi_mem_slave_s.start(spi_sequencer); join_none&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;wb_reset_s.start(wb_sequencer);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;wb_reset_s.start(wb_sequencer);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_enable();&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_write_via_wb(3&#39;h1,4&#39;hc); // Write and read DUT data register to send 0xc to addr 0x1 on SPI slave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_write_via_wb(3&#39;h2,4&#39;h3); // Write and read DUT data register to send 0x3 to addr 0x2 on SPI slave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_read_via_wb(3&#39;h1);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Write and read DUT data register to read addr 0x1 on SPI slave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_read_via_wb(3&#39;h2);&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Write and read DUT data register to read addr 0x1 on SPI slave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;spi_write_via_wb(3&#39;h3,4&#39;h5); // Write and read DUT data register to send 0x5 to addr 0x2 on SPI slave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;wb_config.wait_for_num_clocks(100);&amp;nbsp; // Wait for DUT latency to allow final traffic to flush&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;endtask&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1020" width="420" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-63" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-21" target="yj3TOyIEOkWwaIAgIjnc-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-470" y="900" as="sourcePoint" />
+            <mxPoint x="-420" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-64" value="class wb2spi_regmodel_sequence extends wb2spi_sequence_base;&lt;br&gt;&lt;br&gt;task spi_read_via_wb(input bit[2:0] addr);&lt;br&gt;&lt;br&gt;task spi_write_via_wb(input bit[2:0] addr, input bit [3:0] spi_write_data);&lt;br&gt;&lt;br&gt;task spi_enable();&lt;br&gt;&lt;br&gt;virtual task body();&amp;nbsp; //调用以上task的总入口" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="1130" width="390" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-65" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.447;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-20" target="yj3TOyIEOkWwaIAgIjnc-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-630" y="860" as="sourcePoint" />
+            <mxPoint x="-580" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-66" value="&lt;div&gt;class example_derived_test_sequence extends wb2spi_sequence_base;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; `uvm_object_utils( example_derived_test_sequence );&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; function new(string name = &quot;&quot; );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; super.new(name);&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;endclass&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="860" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yj3TOyIEOkWwaIAgIjnc-67" value="" style="endArrow=classic;html=1;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yj3TOyIEOkWwaIAgIjnc-19" target="yj3TOyIEOkWwaIAgIjnc-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-890" y="860" as="sourcePoint" />
+            <mxPoint x="-840" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
