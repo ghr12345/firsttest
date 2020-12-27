@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T06:02:14.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.2" etag="Prl8bAGQBzimL7W1WqkD" type="github"><diagram id="7aiQNYX1JATzqL3n-3LC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-27T06:19:39.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GGkYe_8l5URMA2Ff_yU7" version="14.1.2" type="github">
+  <diagram id="7aiQNYX1JATzqL3n-3LC" name="第 1 页">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-1" value="TLM通信的步骤：&lt;br&gt;分辨出initiator和target，producer和consumer&lt;br&gt;在target中实现TLM通信方法&lt;br&gt;在两个对象中创建TLM端口&lt;br&gt;在更高层次中将两个对象的端口进行连接" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-2" value="端口类型分为三种：&lt;br&gt;port：经常作为initiator的发起端，initiator凭借port才可以访问target的TLM通信方法&lt;br&gt;export：最为initiator和target的中间层次的端口&lt;br&gt;imp：只能作为target接收request的末端，无法作为中间层次的端口，所以imp的连接无法再次延伸" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-3" value="两种传输方式：&lt;br&gt;单向传输：由initiator发起request transaction&lt;br&gt;双向传输：由initiator发起request transaction，传输至target；target在消化了request transaction后，发起response transaction，返回给initiator" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="550" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
