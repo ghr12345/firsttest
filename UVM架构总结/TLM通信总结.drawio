@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T06:19:39.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GGkYe_8l5URMA2Ff_yU7" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T06:32:18.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="uc8hjLEp6J3-sUYnR0IG" version="14.1.2" type="github">
   <diagram id="7aiQNYX1JATzqL3n-3LC" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KpihyvGpEoFMGpjDdbEs-1" value="TLM通信的步骤：&lt;br&gt;分辨出initiator和target，producer和consumer&lt;br&gt;在target中实现TLM通信方法&lt;br&gt;在两个对象中创建TLM端口&lt;br&gt;在更高层次中将两个对象的端口进行连接" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="110" y="70" width="320" height="100" as="geometry" />
+          <mxGeometry x="30" y="50" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KpihyvGpEoFMGpjDdbEs-2" value="端口类型分为三种：&lt;br&gt;port：经常作为initiator的发起端，initiator凭借port才可以访问target的TLM通信方法&lt;br&gt;export：最为initiator和target的中间层次的端口&lt;br&gt;imp：只能作为target接收request的末端，无法作为中间层次的端口，所以imp的连接无法再次延伸" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="110" y="240" width="550" height="80" as="geometry" />
+          <mxGeometry x="380" y="30" width="550" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KpihyvGpEoFMGpjDdbEs-3" value="两种传输方式：&lt;br&gt;单向传输：由initiator发起request transaction&lt;br&gt;双向传输：由initiator发起request transaction，传输至target；target在消化了request transaction后，发起response transaction，返回给initiator" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="110" y="340" width="550" height="80" as="geometry" />
+          <mxGeometry x="380" y="120" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-4" value="TLM端口连接的一般做法：&lt;br&gt;1、在initiator端例化port，在中间层次例化export，在target端例化imp；&lt;br&gt;2、多个port可以连接到一个export或imp；但单个port或多个export无法连接多个imp&lt;br&gt;3、port应为request起点，imp应为request重点，而中间层次可以跨越多个层次，建议在中间层次声明export，继而通过层层连接实现数据通路&lt;br&gt;4、port可以连接port、export或imp；export可以连接export或imp；imp只能作为数据传送的终点，无法扩展连接" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="850" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
