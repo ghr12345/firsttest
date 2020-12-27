@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T06:58:09.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="B_55JIzOq1GOFp4OXHyD" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T07:05:35.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Vte9RWJg1_-AqEV36_OF" version="14.1.2" type="github">
   <diagram id="7aiQNYX1JATzqL3n-3LC" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,12 @@
         </mxCell>
         <mxCell id="KpihyvGpEoFMGpjDdbEs-39" value="上图的代码如下：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="820" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-40" value="此例得出的建立TLM通信的常规步骤：&lt;br&gt;1、定义TLM传输中的数据类型，上面分别定义了request和response&lt;br&gt;2、分别在各个层次的component中声明和创建TLM端口对象。&lt;br&gt;3、通过connect（）函数完成端口之间的连接&lt;br&gt;4、在imp端口类中要实现需要提供给initiator的可调用方法。例如，在comp2中由于有一个uvm_nonblocking_put_imp#(request, comp2) nvb_imp, 因此需要实现两个方法 try_put ( ) 和can_put ( ); 而comp4中有一个uvm_blocking_get_imp #( request, comp4 ) bg_imp , 则需要实现对应的方法get ( )。需要注意的是，必须在imp 端口类中实现对应的方法，否则端口即使连接也无法实现数据传输。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="870" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-41" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0.4;notch=10;" vertex="1" parent="1">
+          <mxGeometry x="55" y="594" width="30" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
