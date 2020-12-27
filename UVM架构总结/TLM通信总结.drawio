@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T06:42:37.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tfnF5Z8ahMHFqm3GM1p3" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T06:46:22.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="DaDBqSiIjtGmfH4cphnN" version="14.1.2" type="github">
   <diagram id="7aiQNYX1JATzqL3n-3LC" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="KpihyvGpEoFMGpjDdbEs-35" value="组件5" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="700" y="616" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KpihyvGpEoFMGpjDdbEs-36" value="6类TLM端口：&lt;br&gt;UVM_UNDIR_port ( trans_t )&lt;br&gt;UVM_UNDIR_export ( trans_t )&lt;br&gt;UVM_UNDIR_imp ( trans_t , imp_parent_t )&lt;br&gt;UVM_BIDIR_port ( request_trans_t , rsp_trans_t )&lt;br&gt;UVM_BIDIR_export ( request_trans_t&amp;nbsp; , rsp_trans_t)&lt;br&gt;UVM_BIDIR_imp ( request_trans_t ,&amp;nbsp; rsp_trans_t , imp_parent_t )" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="710" width="840" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
