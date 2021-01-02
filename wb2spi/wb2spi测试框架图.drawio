@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T10:25:10.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="QnnBfsmS6WOucpfxUF2n" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T10:31:22.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="27K1ZpeN1w5xuH8hd5Oq" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="992" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,11 +223,14 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-7" value="wb2spi_configuration.svh&lt;br&gt;&lt;br&gt;configuration是,wb2spi_configuration类" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="700" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-10" target="k3s0Qyu1QxLextBOLM78-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-10" value="wb2spi_environment" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="850" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-11" value="wb2spi_sequence_base" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="850" y="880" width="140" height="60" as="geometry" />
+          <mxGeometry x="540" y="1070" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-15" target="k3s0Qyu1QxLextBOLM78-7">
           <mxGeometry relative="1" as="geometry" />
@@ -264,6 +267,27 @@
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-31" value="实现了initialize函数" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="1800" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-33" target="k3s0Qyu1QxLextBOLM78-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-33" value="uvmf_environment_base&lt;br&gt;&lt;br&gt;&lt;div&gt;CONFIG_T configuration;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : new&lt;/div&gt;&lt;div&gt;&amp;nbsp; function new( string name = &quot;&quot;, uvm_component parent = null );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.new( name, parent );&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : set_config&lt;/div&gt;&lt;div&gt;&amp;nbsp; function void set_config( CONFIG_T cfg );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; configuration = cfg;&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="835" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-36" value="&lt;div&gt;&amp;nbsp; spi_agent_t spi_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb_agent_t wb_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_coverage spi_mem_slave_coverage;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_viewer spi_mem_slave_viewer;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef wb2spi_predictor wb2spi_predictor_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_predictor_t wb2spi_predictor;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef uvmf_in_order_scoreboard #(spi_transaction) wb2spi_scoreboard_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_scoreboard_t wb2spi_scoreboard;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_adapter&amp;nbsp; &amp;nbsp; &amp;nbsp; wb2reg_adaptr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_predictor&amp;nbsp; &amp;nbsp; wb2reg_predict;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1080" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-39" target="k3s0Qyu1QxLextBOLM78-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-39" value="uvm_env" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="910" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-41" target="k3s0Qyu1QxLextBOLM78-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-41" value="uvm_object" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="700" width="86" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
