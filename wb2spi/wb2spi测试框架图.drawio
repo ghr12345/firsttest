@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T11:13:54.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WYEHAXZ-uiOC0OFdJztP" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T11:24:23.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ngm6uPwcVEiwBzNIH-xE" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="990" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,7 +275,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-33" value="uvmf_environment_base&lt;br&gt;&lt;br&gt;&lt;div&gt;CONFIG_T configuration;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : new&lt;/div&gt;&lt;div&gt;&amp;nbsp; function new( string name = &quot;&quot;, uvm_component parent = null );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.new( name, parent );&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : set_config&lt;/div&gt;&lt;div&gt;&amp;nbsp; function void set_config( CONFIG_T cfg );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; configuration = cfg;&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="835" width="300" height="210" as="geometry" />
+          <mxGeometry x="1100" y="835" width="350" height="210" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-49">
           <mxGeometry relative="1" as="geometry" />
