@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T10:21:53.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="w1fHqLuI_D0_TXJN_KaK" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T10:25:10.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="QnnBfsmS6WOucpfxUF2n" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="992" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-15" target="k3s0Qyu1QxLextBOLM78-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base.svh&lt;br&gt;&lt;br&gt;uvmf_environment_configuration_base" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base.svh&lt;br&gt;&lt;br&gt;uvmf_environment_configuration_base&lt;br&gt;这是一个虚类，实现了纯虚函数initialize" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1330" y="700" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-19" value="&lt;div&gt;wb2spi_configuration.svh&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;声明：&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;spi_configuration spi_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb_configuration&amp;nbsp; wb_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb2spi_reg_block&amp;nbsp; reg_model;&lt;/div&gt;&lt;div&gt;并实例化：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config = spi_configuration::type_id::create(&quot;spi_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config.master_slave = SLAVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config&amp;nbsp; = wb_configuration::type_id::create(&quot;wb_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config.master_slave = MASTER;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;实现initialize函数：&lt;br&gt;根据是什么级别，block级还是chip还是system级别，调用不同的wb_config.initialize函数&amp;nbsp; 和 spi_config.initialize函数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
