@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T09:33:12.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="H-x_atMRyPwPRtmmtjtq" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T09:34:02.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UfjjoL9jxGaE5jabwB1B" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="992" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,13 +190,13 @@
         <mxCell id="0VcnsqzmN8AN9IuAgq7w-38" value="q" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="630" y="410" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-1" target="k3s0Qyu1QxLextBOLM78-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-1" value="test_top" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-3" target="k3s0Qyu1QxLextBOLM78-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-3" target="k3s0Qyu1QxLextBOLM78-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-3" value="uvmf_test_base是一个参数化类，参数是configuration、environment、sequence" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
@@ -225,6 +225,12 @@
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-11" value="wb2spi_sequence_base" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="850" y="880" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-15" target="k3s0Qyu1QxLextBOLM78-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="700" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
