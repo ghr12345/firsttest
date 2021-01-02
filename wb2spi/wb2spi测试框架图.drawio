@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T10:00:12.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ryD8F5-rgm9tVcHQ5pKU" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T10:21:53.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="w1fHqLuI_D0_TXJN_KaK" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="992" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,8 +190,8 @@
         <mxCell id="0VcnsqzmN8AN9IuAgq7w-38" value="q" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="666" y="51" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-1" value="test_top" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="k3s0Qyu1QxLextBOLM78-1" value="test_top.svh&lt;br&gt;&lt;br&gt;test_top" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-3" target="k3s0Qyu1QxLextBOLM78-5">
           <mxGeometry relative="1" as="geometry" />
@@ -199,8 +199,8 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-3" target="k3s0Qyu1QxLextBOLM78-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-3" value="uvmf_test_base是一个参数化类，参数是configuration、environment、sequence" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="420" y="750" width="150" height="60" as="geometry" />
+        <mxCell id="k3s0Qyu1QxLextBOLM78-3" value="uvmf_test_base.svh&lt;br&gt;&lt;br&gt;uvmf_test_base是一个参数化类，参数是configuration、environment、sequence" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="725" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-5" target="k3s0Qyu1QxLextBOLM78-7">
           <mxGeometry relative="1" as="geometry" />
@@ -220,7 +220,7 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-7" target="k3s0Qyu1QxLextBOLM78-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-7" value="configuration是：wb2spi_configuration类" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="k3s0Qyu1QxLextBOLM78-7" value="wb2spi_configuration.svh&lt;br&gt;&lt;br&gt;configuration是,wb2spi_configuration类" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="700" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-10" value="wb2spi_environment" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
@@ -232,10 +232,10 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-15" target="k3s0Qyu1QxLextBOLM78-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="700" width="220" height="60" as="geometry" />
+        <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base.svh&lt;br&gt;&lt;br&gt;uvmf_environment_configuration_base" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="700" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-19" value="&lt;div&gt;声明：&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;spi_configuration spi_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb_configuration&amp;nbsp; wb_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb2spi_reg_block&amp;nbsp; reg_model;&lt;/div&gt;&lt;div&gt;并实例化：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config = spi_configuration::type_id::create(&quot;spi_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config.master_slave = SLAVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config&amp;nbsp; = wb_configuration::type_id::create(&quot;wb_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config.master_slave = MASTER;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;实现initialize函数：&lt;br&gt;根据是什么级别，block级还是chip还是system级别，调用不同的wb_config.initialize函数&amp;nbsp; 和 spi_config.initialize函数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="k3s0Qyu1QxLextBOLM78-19" value="&lt;div&gt;wb2spi_configuration.svh&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;声明：&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;spi_configuration spi_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb_configuration&amp;nbsp; wb_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb2spi_reg_block&amp;nbsp; reg_model;&lt;/div&gt;&lt;div&gt;并实例化：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config = spi_configuration::type_id::create(&quot;spi_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config.master_slave = SLAVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config&amp;nbsp; = wb_configuration::type_id::create(&quot;wb_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config.master_slave = MASTER;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;实现initialize函数：&lt;br&gt;根据是什么级别，block级还是chip还是system级别，调用不同的wb_config.initialize函数&amp;nbsp; 和 spi_config.initialize函数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="690" y="400" width="400" height="220" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-23" target="k3s0Qyu1QxLextBOLM78-19">
@@ -249,6 +249,21 @@
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-25" value="&lt;div&gt;spi_configuration.svh&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class spi_configuration&amp;nbsp; extends uvmf_parameterized_agent_configuration_base#(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;.DRIVER_BFM_BIND_T(virtual spi_driver_bfm),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;.MONITOR_BFM_BIND_T(virtual spi_monitor_bfm)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1200" y="520" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-27" target="k3s0Qyu1QxLextBOLM78-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-27" target="k3s0Qyu1QxLextBOLM78-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-27" target="k3s0Qyu1QxLextBOLM78-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-27" value="uvmf_parameterized_agent_configuration_base.svh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="440" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-31" value="实现了initialize函数" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
