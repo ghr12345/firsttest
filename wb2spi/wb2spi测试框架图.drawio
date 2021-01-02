@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T09:34:02.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="UfjjoL9jxGaE5jabwB1B" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T09:40:56.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="oFs9DO61YWiCZsW54QbM" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="992" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,8 +217,14 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-5" value="1、实例化configuration&lt;br&gt;2、实例化environment&lt;br&gt;3、实例化top level sequence" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="600" y="750" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k3s0Qyu1QxLextBOLM78-7" value="configuration是wb2spi_configuration" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="850" y="700" width="220" height="60" as="geometry" />
+        <mxCell id="k3s0Qyu1QxLextBOLM78-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-7" target="k3s0Qyu1QxLextBOLM78-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-7" target="k3s0Qyu1QxLextBOLM78-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-7" value="configuration是：wb2spi_configuration类" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="700" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-10" value="wb2spi_environment" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="850" y="790" width="120" height="60" as="geometry" />
@@ -230,7 +236,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-15" value="uvmf_environment_configuration_base" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="700" width="220" height="60" as="geometry" />
+          <mxGeometry x="1330" y="700" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-19" value="&lt;div&gt;声明：&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;spi_configuration spi_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb_configuration&amp;nbsp; wb_config;&lt;/div&gt;&lt;div&gt;&amp;nbsp;wb2spi_reg_block&amp;nbsp; reg_model;&lt;/div&gt;&lt;div&gt;并实例化：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config = spi_configuration::type_id::create(&quot;spi_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; spi_config.master_slave = SLAVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config&amp;nbsp; = wb_configuration::type_id::create(&quot;wb_config&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; wb_config.master_slave = MASTER;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-21" value="实现initialize函数：&lt;br&gt;根据是什么级别，block级还是chip还是system级别，调用不同的wb_config.initialize函数&amp;nbsp; 和 spi_config.initialize函数" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="510" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
