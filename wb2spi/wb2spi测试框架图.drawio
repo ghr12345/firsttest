@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T11:06:14.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JYdInXVejji5p5QXWSAV" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T11:09:45.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="pCKBk2IDj4Q9rOed8-60" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
     <mxGraphModel dx="990" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,6 +289,12 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-36" value="&lt;div&gt;&amp;nbsp; spi_agent_t spi_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb_agent_t wb_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_coverage spi_mem_slave_coverage;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_viewer spi_mem_slave_viewer;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef wb2spi_predictor wb2spi_predictor_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_predictor_t wb2spi_predictor;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef uvmf_in_order_scoreboard #(spi_transaction) wb2spi_scoreboard_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_scoreboard_t wb2spi_scoreboard;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_adapter&amp;nbsp; &amp;nbsp; &amp;nbsp; wb2reg_adaptr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_predictor&amp;nbsp; &amp;nbsp; wb2reg_predict;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="720" y="1140" width="450" height="250" as="geometry" />
         </mxCell>
@@ -351,6 +357,12 @@
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-62" value="uvm_scoreboard" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="2650" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-64" value="class wb2reg_adapter extends uvm_reg_adapter;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1450" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-66" value="wb_pkg.sv&lt;br&gt;&lt;br&gt;typedef uvm_reg_predictor #(wb_transaction) wb2reg_predictor;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1530" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
