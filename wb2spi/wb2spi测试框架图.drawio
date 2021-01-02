@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T10:36:21.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="erwpIGBULxyA5FIJbdZM" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T11:06:14.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JYdInXVejji5p5QXWSAV" version="14.1.2" type="github">
   <diagram id="EMqzttN0W1V-fPkIx3bq" name="第 1 页">
-    <mxGraphModel dx="992" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="990" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-11" value="wb2spi_sequence_base" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1520" width="140" height="60" as="geometry" />
+          <mxGeometry x="720" y="1820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-15" target="k3s0Qyu1QxLextBOLM78-7">
           <mxGeometry relative="1" as="geometry" />
@@ -277,8 +277,20 @@
         <mxCell id="k3s0Qyu1QxLextBOLM78-33" value="uvmf_environment_base&lt;br&gt;&lt;br&gt;&lt;div&gt;CONFIG_T configuration;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : new&lt;/div&gt;&lt;div&gt;&amp;nbsp; function new( string name = &quot;&quot;, uvm_component parent = null );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;super.new( name, parent );&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; // FUNCTION : set_config&lt;/div&gt;&lt;div&gt;&amp;nbsp; function void set_config( CONFIG_T cfg );&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; configuration = cfg;&lt;/div&gt;&lt;div&gt;&amp;nbsp; endfunction&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1100" y="835" width="300" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-36" target="k3s0Qyu1QxLextBOLM78-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-36" value="&lt;div&gt;&amp;nbsp; spi_agent_t spi_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb_agent_t wb_agent;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_coverage spi_mem_slave_coverage;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_transaction_viewer spi_mem_slave_viewer;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef wb2spi_predictor wb2spi_predictor_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_predictor_t wb2spi_predictor;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; typedef uvmf_in_order_scoreboard #(spi_transaction) wb2spi_scoreboard_t;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2spi_scoreboard_t wb2spi_scoreboard;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_adapter&amp;nbsp; &amp;nbsp; &amp;nbsp; wb2reg_adaptr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb2reg_predictor&amp;nbsp; &amp;nbsp; wb2reg_predict;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1130" width="400" height="250" as="geometry" />
+          <mxGeometry x="720" y="1140" width="450" height="250" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-39" target="k3s0Qyu1QxLextBOLM78-33">
           <mxGeometry relative="1" as="geometry" />
@@ -299,13 +311,46 @@
           <mxGeometry x="2068" y="440" width="72" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-45" value="wb2spi_sequence_base.svh&lt;br&gt;&lt;br&gt;class wb2spi_sequence_base extends uvm_sequence #(uvm_sequence_item);&lt;br&gt;&lt;div&gt;wb_reset_sequence&amp;nbsp; wb_reset_s;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb_master_access_sequence wb_master_access_s;&lt;/div&gt;&lt;div&gt;&amp;nbsp; spi_mem_slave_seq&amp;nbsp; spi_mem_slave_s;&lt;/div&gt;&lt;div&gt;&amp;nbsp; bit [63:0] wb_read_data;&lt;/div&gt;&lt;div&gt;&amp;nbsp; bit [3:0]&amp;nbsp; spi_read_data;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; uvm_status_e status;&lt;/div&gt;&lt;div&gt;&amp;nbsp; bit [8:0] temp_data;&lt;/div&gt;&lt;div&gt;&amp;nbsp; string report_id;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; uvm_sequencer #(wb_transaction)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; wb_sequencer;&lt;/div&gt;&lt;div&gt;&amp;nbsp; uvm_sequencer #(spi_transaction) spi_sequencer;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; wb_configuration wb_config;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1410" width="430" height="280" as="geometry" />
+          <mxGeometry x="960" y="1710" width="430" height="280" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-47" target="k3s0Qyu1QxLextBOLM78-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k3s0Qyu1QxLextBOLM78-47" value="&lt;span&gt;uvm_sequence&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="1520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-49" value="spi_pkg.sv&lt;br&gt;&lt;br&gt;typedef uvmf_parameterized_agent #(spi_configuration, spi_driver, spi_monitor, spi_transaction_coverage, spi_transaction) spi_agent_t;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1090" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-51" value="wb_pkg.sv&lt;br&gt;&lt;br&gt;typedef uvmf_parameterized_agent #(spi_configuration, spi_driver, spi_monitor, spi_transaction_coverage, spi_transaction) wb_agent_t;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1180" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-53" value="wb2spi_predictor.svh&lt;br&gt;&lt;br&gt;class wb2spi_predictor extends uvm_subscriber#(.T(wb_transaction));" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1260" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-55" target="k3s0Qyu1QxLextBOLM78-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-55" target="k3s0Qyu1QxLextBOLM78-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-55" value="&lt;div&gt;&lt;span&gt;uvmf_parameterized_agent.svh&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;class uvmf_parameterized_agent #(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;type CONFIG_T,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;type DRIVER_T,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;type MONITOR_T,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;type COVERAGE_T,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;type TRANS_T&lt;/div&gt;&lt;div&gt;) extends uvm_agent;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="1100" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-58" value="class uvmf_in_order_scoreboard #(type T = uvmf_transaction_base) extends uvmf_scoreboard_base#(T);" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1350" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-60" target="k3s0Qyu1QxLextBOLM78-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-60" value="class uvmf_scoreboard_base #(type T = uvmf_transaction_base) extends uvm_scoreboard;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2044" y="1350" width="516" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k3s0Qyu1QxLextBOLM78-62" target="k3s0Qyu1QxLextBOLM78-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k3s0Qyu1QxLextBOLM78-62" value="uvm_scoreboard" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
