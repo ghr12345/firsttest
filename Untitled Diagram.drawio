@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T03:43:38.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="LaZJ_gWThV6qLyWfaT9a" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T03:58:57.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="z38ZGg7XPbBXz-F6dmiD" version="14.9.0" type="github">
   <diagram id="dHyQosclc3NUR6HKDb04" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,8 +61,11 @@
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-15" value="ghr_test_scb sb;&lt;br&gt;&amp;nbsp; &amp;nbsp;ral_block_ghr_test_env regmodel;&lt;br&gt;&amp;nbsp; &amp;nbsp;reg_seq ral_sequence;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_agent master_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_agent slave_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_env_cov cov;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ref_model mod;&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ral_adapter reg2host;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; `uvm_component_utils(ghr_test_env_ral_env)&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function new(string name=&quot;ghr_test_env_ral_env&quot;, uvm_component parent=null);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function void start_of_simulation_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task reset_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task configure_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task run_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void report_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task shutdown_phase(uvm_phase phase);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="525" y="389" width="505" height="380" as="geometry" />
         </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-17" value="master_agent" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="-210" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-20" value="slave_agent" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="1050" width="120" height="60" as="geometry" />
@@ -81,6 +84,18 @@
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-31" value="reg2host (adapter)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1181" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-33" value="&lt;div&gt;protected uvm_active_passive_enum is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_sqr mast_sqr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_drv mast_drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_mon mast_mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;typedef virtual ghr_test_mas_intf vif;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif mast_agt_if;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_begin(ghr_test_mas_agent)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;//ToDo: add field utils macros here if required&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;`uvm_component_utils_end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ToDo: Add required short hand override method&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="985" width="470" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-35" value="mast_sqr" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-36" value="mast_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-37" value="mast_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
