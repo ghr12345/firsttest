@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T06:20:32.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="dIWMUoxQlstlenFgQf0_" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:21:03.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="GyefZKrwJZrU_x8KEyoQ" version="14.9.0" type="github">
   <diagram id="dHyQosclc3NUR6HKDb04" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-36" value="mast_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-533" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EVgympzsnjo3q1FPB-39-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-37" target="EVgympzsnjo3q1FPB-39-1">
+        <mxCell id="EVgympzsnjo3q1FPB-39-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-36" target="EVgympzsnjo3q1FPB-39-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-37" value="mast_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -134,7 +134,7 @@
           <mxGeometry x="20" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EVgympzsnjo3q1FPB-39-1" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void end_of_elaboration_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void start_of_simulation_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task reset_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task configure_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task run_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern protected virtual task send(ghr_test_tr tr);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern protected virtual task tx_driver();&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="1420" width="520" height="150" as="geometry" />
+          <mxGeometry x="-733" y="1420" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
