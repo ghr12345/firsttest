@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T03:20:06.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="hvBGtnZYm5-4l7Gi8ZiU" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T03:21:02.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="XzLReH5S9CqOCtWHtBcX" version="14.9.0" type="github">
   <diagram id="dHyQosclc3NUR6HKDb04" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,13 +11,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-1" value="ghr_test_dut_top.sv&lt;br&gt;&lt;br&gt;module&amp;nbsp;ghr_test_dut_top&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="270" y="90" width="190" height="60" as="geometry" />
+          <mxGeometry x="220" y="90" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="230" width="190" height="60" as="geometry" />
+          <mxGeometry x="220" y="230" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dHHoHIPFjKXj9bd5cRM4-4" value="1、实例化module：&lt;br&gt;ghr_test_program test()&lt;br&gt;2、生成时钟和复位，并将时钟和复位赋给mst_vif、slv_if接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="575" y="90" width="215" height="60" as="geometry" />
+          <mxGeometry x="525" y="90" width="215" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
