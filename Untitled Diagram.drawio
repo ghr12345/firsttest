@@ -1,134 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T04:11:48.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="5wJFPGEe1iN_rwit1oyx" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:20:32.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="dIWMUoxQlstlenFgQf0_" version="14.9.0" type="github">
   <diagram id="dHyQosclc3NUR6HKDb04" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-1" target="dHHoHIPFjKXj9bd5cRM4-2">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-1" target="dHHoHIPFjKXj9bd5cRM4-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-1" target="dHHoHIPFjKXj9bd5cRM4-4">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-1" target="dHHoHIPFjKXj9bd5cRM4-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-1" value="tb / ghr_test_dut_top.sv&lt;br&gt;&lt;br&gt;tb / module&amp;nbsp;ghr_test_dut_top" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-1" value="tb / ghr_test_dut_top.sv&lt;br&gt;&lt;br&gt;tb / module&amp;nbsp;ghr_test_dut_top" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="220" y="90" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-8">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-8">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-11">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-2" target="dHHoHIPFjKXj9bd5cRM4-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-2" value="testcase / ghr_test_program.sv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-2" value="testcase / ghr_test_program.sv" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="230" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-4" value="1、实例化module：&lt;br&gt;ghr_test_program test()&lt;br&gt;2、生成时钟和复位，并将时钟和复位赋给mst_vif、slv_if接口&lt;br&gt;3、生成fsdb波形图文件" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-4" value="1、实例化module：&lt;br&gt;ghr_test_program test()&lt;br&gt;2、生成时钟和复位，并将时钟和复位赋给mst_vif、slv_if接口&lt;br&gt;3、生成fsdb波形图文件" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="525" y="80" width="215" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-8" value="class ghr_test_env_test extends uvm_test：&lt;br&gt;在build_phase中创建了env实例（ghr_test_env_ral_env），并config了default_sequence，路径为env.master_agent.mast_sqr.main_phase&lt;br&gt;&lt;br&gt;module&amp;nbsp;ghr_test_program：&lt;br&gt;设置了接口给mst_if、slv_if&lt;br&gt;run_test( )&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --------这是整个平台运行的开始，当不传入参数时，使用sim命令UVM_TEST_NAME=&lt;span style=&quot;color: rgb(101 , 101 , 101) ; font-family: &amp;#34;pt serif&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 16px ; font-style: italic ; background-color: rgb(243 , 242 , 238)&quot;&gt;ghr_test_env_test &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;pt serif&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 16px ; background-color: rgb(243 , 242 , 238)&quot;&gt;来运行用例&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-8" value="class ghr_test_env_test extends uvm_test：&lt;br&gt;在build_phase中创建了env实例（ghr_test_env_ral_env），并config了default_sequence，路径为env.master_agent.mast_sqr.main_phase&lt;br&gt;&lt;br&gt;module&amp;nbsp;ghr_test_program：&lt;br&gt;设置了接口给mst_if、slv_if&lt;br&gt;run_test( )&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --------这是整个平台运行的开始，当不传入参数时，使用sim命令UVM_TEST_NAME=&lt;span style=&quot;color: rgb(101 , 101 , 101) ; font-family: &amp;#34;pt serif&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 16px ; font-style: italic ; background-color: rgb(243 , 242 , 238)&quot;&gt;ghr_test_env_test &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;pt serif&amp;#34; , &amp;#34;times new roman&amp;#34; , &amp;#34;times&amp;#34; , serif ; font-size: 16px ; background-color: rgb(243 , 242 , 238)&quot;&gt;来运行用例&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="525" y="180" width="475" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-15">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-17">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-20">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-22">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-25">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-27">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-29">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-31">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-11" target="dHHoHIPFjKXj9bd5cRM4-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-11" value="env / ghr_test_env_ral_env.sv" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-11" value="env / ghr_test_env_ral_env.sv" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="549" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-15" value="ghr_test_scb sb;&lt;br&gt;&amp;nbsp; &amp;nbsp;ral_block_ghr_test_env regmodel;&lt;br&gt;&amp;nbsp; &amp;nbsp;reg_seq ral_sequence;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_agent master_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_agent slave_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_env_cov cov;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ref_model mod;&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ral_adapter reg2host;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; `uvm_component_utils(ghr_test_env_ral_env)&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function new(string name=&quot;ghr_test_env_ral_env&quot;, uvm_component parent=null);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function void start_of_simulation_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task reset_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task configure_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task run_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void report_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task shutdown_phase(uvm_phase phase);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-15" value="ghr_test_scb sb;&lt;br&gt;&amp;nbsp; &amp;nbsp;ral_block_ghr_test_env regmodel;&lt;br&gt;&amp;nbsp; &amp;nbsp;reg_seq ral_sequence;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_agent master_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_agent slave_agent;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_env_cov cov;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ref_model mod;&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp;ghr_test_ral_adapter reg2host;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; `uvm_component_utils(ghr_test_env_ral_env)&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function new(string name=&quot;ghr_test_env_ral_env&quot;, uvm_component parent=null);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern function void start_of_simulation_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task reset_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task configure_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task run_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual function void report_phase(uvm_phase phase);&lt;br&gt;&amp;nbsp; &amp;nbsp;extern virtual task shutdown_phase(uvm_phase phase);" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="525" y="389" width="505" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-33">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-35">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-36">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-37">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-17" target="dHHoHIPFjKXj9bd5cRM4-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-17" value="master_agent" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-17" value="master_agent" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-210" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-41">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-46">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-47">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-48">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dHHoHIPFjKXj9bd5cRM4-20" target="dHHoHIPFjKXj9bd5cRM4-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-20" value="slave_agent" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1520" width="120" height="60" as="geometry" />
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-20" value="slave_agent" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-22" value="cov" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-22" value="cov" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="255" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-25" value="sb" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-25" value="sb" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="510" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-27" value="regmodel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-27" value="regmodel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="763" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-29" value="mod" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-29" value="mod" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="990" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-31" value="reg2host (adapter)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-31" value="reg2host (adapter)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1181" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-33" value="&lt;div&gt;protected uvm_active_passive_enum is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_sqr mast_sqr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_drv mast_drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_mon mast_mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;typedef virtual ghr_test_mas_intf vif;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif mast_agt_if;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_begin(ghr_test_mas_agent)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;//ToDo: add field utils macros here if required&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;`uvm_component_utils_end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ToDo: Add required short hand override method&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-33" value="&lt;div&gt;protected uvm_active_passive_enum is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_sqr mast_sqr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_drv mast_drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_mas_mon mast_mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;typedef virtual ghr_test_mas_intf vif;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif mast_agt_if;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_begin(ghr_test_mas_agent)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;//ToDo: add field utils macros here if required&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;`uvm_component_utils_end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ToDo: Add required short hand override method&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-790" y="985" width="470" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-35" value="mast_seqr" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-35" value="mast_seqr" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-720" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-36" value="mast_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-36" value="mast_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-533" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-37" value="mast_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="EVgympzsnjo3q1FPB-39-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dHHoHIPFjKXj9bd5cRM4-37" target="EVgympzsnjo3q1FPB-39-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-37" value="mast_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-340" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-41" value="&lt;div&gt;// ToDo: add sub environment properties here&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;protected uvm_active_passive_enum is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_drv slv_drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_mon slv_mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_sqr slv_seqr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;typedef virtual ghr_test_slv_intf vif;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif slv_agt_if;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_begin(ghr_test_slv_agent)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; //ToDo: add field utils macros here if required&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ToDo: Add required short hand override method&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="1450" width="620" height="200" as="geometry" />
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-41" value="&lt;div&gt;// ToDo: add sub environment properties here&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;protected uvm_active_passive_enum is_active = UVM_ACTIVE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_drv slv_drv;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_mon slv_mon;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ghr_test_slv_sqr slv_seqr;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;typedef virtual ghr_test_slv_intf vif;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;vif slv_agt_if;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_begin(ghr_test_slv_agent)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; //ToDo: add field utils macros here if required&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;`uvm_component_utils_end&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; // ToDo: Add required short hand override method&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="1750" width="620" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-46" value="slv_seqr" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="1740" width="120" height="60" as="geometry" />
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-46" value="slv_seqr" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-47" value="slv_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-283" y="1740" width="120" height="60" as="geometry" />
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-47" value="slv_drv" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-173" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dHHoHIPFjKXj9bd5cRM4-48" value="slv_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="1740" width="120" height="60" as="geometry" />
+        <mxCell id="dHHoHIPFjKXj9bd5cRM4-48" value="slv_mon" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="20" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVgympzsnjo3q1FPB-39-1" value="&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void build_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void end_of_elaboration_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void start_of_simulation_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual function void connect_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task reset_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task configure_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern virtual task run_phase(uvm_phase phase);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern protected virtual task send(ghr_test_tr tr);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;extern protected virtual task tx_driver();&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1420" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
